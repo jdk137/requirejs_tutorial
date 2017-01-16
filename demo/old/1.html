@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>old</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="./css/1.css"/>
+  <script src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+<button class="page1"> 页面1 </button>
+<button class="page2"> 页面2 </button>
+<p>页面1</p>
+<p class="time"></p>
+
+<script>
+$(".page2").click(function (){ window.location.href = './2.html'; });
+$(".time").html('' + new Date());
+</script>
+
+
+</body>
+
+</html>
