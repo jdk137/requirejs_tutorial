@@ -2,7 +2,7 @@ require.config({
   baseUrl: './',
   paths: {
     text: 'lib/requirejs/text',
-    css: 'lib/requirejs/css',
+    requireCss: 'lib/requirejs/css',
     jquery: 'lib/jquery.min',
     page1: 'js/1',
     page2: 'js/2'
